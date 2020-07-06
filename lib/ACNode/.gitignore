@@ -1,0 +1,10 @@
+**/*.pyc
+.DS_Store
+# prevent the real config files from accidentally
+# slipping into GIT.
+.passwd.h
+acnode.ini
+keydb.txt
+*.priv
+*.private
+venv
